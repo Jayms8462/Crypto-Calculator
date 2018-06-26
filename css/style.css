@@ -1,0 +1,51 @@
+h1 {
+  margin: 0;
+}
+
+body {
+  margin: auto;
+  margin-top: 0;
+  background-color: grey;
+}
+.sideMenuButton, p {
+  display: inline-block;
+  margin: 0;
+}
+
+.sideNav {
+  width: 11%;
+  height: 100%;
+  display: inline-block;
+  background-color: white;
+}
+
+#menu {
+  display: inline-block;
+}
+
+button {
+    background-color: #3d3d3d;
+    border: none;
+    font-size: 15px;
+}
+button a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+button a:hover {
+  color: grey;
+}
+
+.navbar {
+  background-color: #3d3d3d;
+  width: 100%;
+  color: white;
+}
+
+.main, p {
+  width: 78%;
+  margin: auto;
+  margin-top: 0;
+  background-color: white;
+}

@@ -1,0 +1,10 @@
+'use strict'
+
+function generateLinks(){
+  document.write('<div class="navbar"><h1>Crypto Calculator</h1></div>')
+  document.write('<button class="home" style="inline-block"><a href="index.html">Home</a></button>');
+  document.write('<button class="calculator" style="inline-block"><a href="calculator.html">Calculator</a></button>');
+  document.write('<button class="masternode" style="inline-block"><a href="masternode.html">Masternode</a></button>');
+};
+
+generateLinks();
