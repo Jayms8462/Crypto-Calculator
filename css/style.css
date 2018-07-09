@@ -4,7 +4,7 @@
   padding: 0;
   border: 0;
 }
-
+/* Header Items */
 #header {
   background-color: #0f0f0f;
   width: 100%;
@@ -13,10 +13,11 @@
   color: white;
 }
 
+/* Navbar Items */
 #navbar {
   background-color: #424242;
   width: 100%;
-  height: 25px;
+  height: auto;
 }
 
 #navbar button {
@@ -32,27 +33,78 @@
   font-weight: bold;
 }
 
+/* Sidenav Items */
+
 #sidenav {
-  border: 1px solid black;
   width: 11%;
-  height: 400px;
+  height: 85vh;
   float: left;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
-#smallbar {
-  border: 1px solid black;
-  width: 5%;
-  height: 400px;
-  float: left;
-  position: absolute;
+#sidenav #menu {
+  position: fixed;
+  top: 110px;
+  left: 11%;
 }
+
+#sidenav::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+#sidenav::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+#sidenav::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+#sidenav::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+#sidenav::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+#sidenav::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+#sidenav::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+#sidenav::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+#sidenav::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+#sidenav img {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Body Items */
 
 #body {
   border: 1px solid red;
   width: 40px;
-  height: 400px;
   display: inline-block;
+  height: auto;
+  margin-left: 60px;
 }
+
+body {
+    background-color: #5d5d5d;
+    height: auto;
+}
+
+/* Footer Items */
 
 #footerspacer {
   background-color: #424242;
@@ -62,10 +114,6 @@
 
 #footer {
   background-color: #0f0f0f;
-  width: auto;
+  width: 100%;
   height: 100px;
-}
-
-body {
-    background-color: #5d5d5d;
 }
