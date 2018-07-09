@@ -2,8 +2,6 @@
 
 var menu = true;
 
-btcMenu();
-
 function btcMenu() {
   document.write('<div style="word-wrap: break-word; display: none;"><img src="/res/coinImages/2GIVE.png" alt="2GIVE"><span style=margin-left: 4px">2GIVE</span></div>');
   document.write('<div style="word-wrap: break-word; display: none;"><img src="/res/coinImages/ABY.png" alt="ArtByte"><span style=margin-left: 4px">ABY</span></div>');
@@ -205,3 +203,5 @@ function btcMenu() {
   document.write('<div style="word-wrap: break-word; display: none;"><img src="/res/coinImages/ZRX.png" alt="0x Protocol"><span style=margin-left: 4px">ZRX</span></div>');
   document.write('<div style="word-wrap: break-word; display: none;"><img src="/res/coinImages/USDT.png" alt="Tether"><span style=margin-left: 4px">USDT</span></div>');
 }
+
+btcMenu();

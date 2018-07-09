@@ -11,6 +11,7 @@
   height: 100px;
   font-size: 5.5em;
   color: white;
+  text-shadow: 2px 1px #85bb65;
 }
 
 /* Navbar Items */
@@ -24,6 +25,7 @@
   background-color: inherit;
   margin: 2px;
   color: white;
+  text-shadow: 2px 1px #85bb65;
 }
 
 #navbar a:-webkit-any-link {
@@ -88,6 +90,10 @@
   display: inline-block;
   vertical-align: middle;
 }
+
+/* #btcmarket, #ethmarket, #usdtmarket, #usdmarket {
+  display: none;
+} */
 
 /* Body Items */
 
