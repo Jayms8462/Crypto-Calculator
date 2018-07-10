@@ -91,9 +91,9 @@
   vertical-align: middle;
 }
 
-/* #btcmarket, #ethmarket, #usdtmarket, #usdmarket {
+#btcmarket, #ethmarket, #usdtmarket, #usdmarket {
   display: none;
-} */
+}
 
 /* Body Items */
 
@@ -102,7 +102,6 @@
   width: 40px;
   display: inline-block;
   height: auto;
-  margin-left: 60px;
 }
 
 body {
