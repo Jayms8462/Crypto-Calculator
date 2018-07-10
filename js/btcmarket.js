@@ -1,5 +1,5 @@
 'use strict'
-
+//comment
 var menu = true;
 
 function btcMenu() {
