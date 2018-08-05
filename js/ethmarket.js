@@ -1,73 +1,352 @@
 'use strict'
-//comment
-var menu = true;
 
-function ethMenu(){
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/ADA.png" alt="Ada"><span style=margin-left: 4px">ADA</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/ADT.png" alt="adToken"><span style=margin-left: 4px">ADT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/ADX.png" alt="AdEx"><span style=margin-left: 4px">ADX</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/AID.png" alt="AidCoin"><span style=margin-left: 4px">AID</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/ANT.png" alt="Aragon"><span style=margin-left: 4px">ANT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/BAT.png" alt="Basic Attention Token"><span style=margin-left: 4px">BAT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/BCH.png" alt="Bitcoin Cash"><span style=margin-left: 4px">BCH</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/BCPT.png" alt="BlockMason Credit Protocol"><span style=margin-left: 4px">BCPT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/BLT.png" alt="Bloom"><span style=margin-left: 4px">BLT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/BNT.png" alt="Bancor"><span style=margin-left: 4px">BNT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/BTG.png" alt="Bitcoin Gold"><span style=margin-left: 4px">BTG</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/CFI.png" alt="Cofound.it"><span style=margin-left: 4px">CFI</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/CVC.png" alt="Civic"><span style=margin-left: 4px">CVC</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/DASH.png" alt="Dash"><span style=margin-left: 4px">DASH</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/DGB.png" alt="Digibyte"><span style=margin-left: 4px">DGB</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/DMT.png" alt="DMarket"><span style=margin-left: 4px">DMT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/DNT.png" alt="district0x"><span style=margin-left: 4px">DNT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/ENG.png" alt="Enigma"><span style=margin-left: 4px">ENG</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/ETC.png" alt="Ethereum Classic"><span style=margin-left: 4px">ETC</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/FCT.png" alt="Factom"><span style=margin-left: 4px">FCT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/GNO.png" alt="Gnosis"><span style=margin-left: 4px">GNO</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/GNT.png" alt="Golem"><span style=margin-left: 4px">GNT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/GTO.png" alt="Gifto"><span style=margin-left: 4px">GTO</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/GUP.png" alt="Guppy"><span style=margin-left: 4px">GUP</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/LRC.png" alt="Loopring"><span style=margin-left: 4px">LRC</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/LTC.png" alt="Litecoin"><span style=margin-left: 4px">LTC</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/LUN.png" alt="Lunyr"><span style=margin-left: 4px">LUN</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/MANA.png" alt="Decentraland"><span style=margin-left: 4px">MANA</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/MCO.png" alt="Monaco"><span style=margin-left: 4px">MCO</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/MORE.png" alt="More"><span style=margin-left: 4px">MORE</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/NEO.png" alt="Neo"><span style=margin-left: 4px">NEO</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/NGC.png" alt="Naga"><span style=margin-left: 4px">NGC</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/OCN.png" alt="Odyssey"><span style=margin-left: 4px">OCN</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/OMG.png" alt="OmiseGO"><span style=margin-left: 4px">OMG</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/PAY.png" alt="TenX Pay Token"><span style=margin-left: 4px">PAY</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/POLY.png" alt="Polymath"><span style=margin-left: 4px">POLY</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/POWR.png" alt="PowerLedger"><span style=margin-left: 4px">POWR</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/PRO.png" alt="Propy"><span style=margin-left: 4px">PRO</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/QTUM.png" alt="Qtum"><span style=margin-left: 4px">QTUM</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/RCN.png" alt="Ripio Credit Network"><span style=margin-left: 4px">RCN</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/REP.png" alt="Augur"><span style=margin-left: 4px">REP</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/RLC.png" alt="iEx.ec"><span style=margin-left: 4px">RLC</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/SALT.png" alt="Salt"><span style=margin-left: 4px">SALT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/SC.png" alt="Siacoin"><span style=margin-left: 4px">SC</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/SNT.png" alt="Status Network Token"><span style=margin-left: 4px">SNT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/SRN.png" alt="Sirin Token"><span style=margin-left: 4px">SRN</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/STORM.png" alt="Storm"><span style=margin-left: 4px">STORM</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/STRAT.png" alt="Stratis"><span style=margin-left: 4px">STRAT</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/TIX.png" alt="Blocktix"><span style=margin-left: 4px">TIX</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/TRX.png" alt="TRON"><span style=margin-left: 4px">TRX</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/TUSD.png" alt="TrueUSD"><span style=margin-left: 4px">TUSD</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/UKG.png" alt="UnikoinGold"><span style=margin-left: 4px">UKG</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/UP.png" alt="UpToken"><span style=margin-left: 4px">UP</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/VEE.png" alt="BLOCKv"><span style=margin-left: 4px">VEE</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/VIB.png" alt="Viberate"><span style=margin-left: 4px">VIB</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/WAVES.png" alt="Waves"><span style=margin-left: 4px">WAVES</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/WAX.png" alt="Worldwide Asset Exchange"><span style=margin-left: 4px">WAX</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/WINGS.png" alt="Wings DAO"><span style=margin-left: 4px">WINGS</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/XEM.png" alt="NEM"><span style=margin-left: 4px">XEM</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/XLM.png" alt="Lumen"><span style=margin-left: 4px">XLM</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/XMR.png" alt="Monero"><span style=margin-left: 4px">XMR</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/XRP.png" alt="Ripple"><span style=margin-left: 4px">XRP</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/ZEC.png" alt="Zcash"><span style=margin-left: 4px">ZEC</span></div>');
-  document.write('<div style="word-wrap: break-word"><img src="/res/coinImages/ZRX.png" alt="0x Protocol"><span style=margin-left: 4px">ZRX</span></div>');
-
-}
-
-ethMenu();
+let EthMenu = [
+    { 	
+        coin: 'Ada',
+        csn: 'ADA',
+        img: '/res/coinImages/ADA',
+        alt: 'Ada'
+    },	
+    { 	
+        coin: 'AdEx',
+        csn: 'ADX',
+        img: '/res/coinImages/ADX',
+        alt: 'AdEx'
+    },	
+    { 	
+        coin: 'AidCoin',
+        csn: 'AID',
+        img: '/res/coinImages/AID',
+        alt: 'AidCoin'
+    },	
+    { 	
+        coin: 'Aragon',
+        csn: 'ANT',
+        img: '/res/coinImages/ANT',
+        alt: 'Aragon'
+    },	
+    { 	
+        coin: 'Basic Attention Token',
+        csn: 'BAT',
+        img: '/res/coinImages/BAT',
+        alt: 'Basic Attention Token'
+    },	
+    { 	
+        coin: 'Bitcoin Cash',
+        csn: 'BCH',
+        img: '/res/coinImages/BCH',
+        alt: 'Bitcoin Cash'
+    },	
+    { 	
+        coin: 'BlockMason Credit Protocol',
+        csn: 'BCPT ',
+        img: '/res/coinImages/BCPT ',
+        alt: 'BlockMason Credit Protocol'
+    },	
+    { 	
+        coin: 'Bloom',
+        csn: 'BLT',
+        img: '/res/coinImages/BLT',
+        alt: 'Bloom'
+    },	
+    { 	
+        coin: 'Bancor',
+        csn: 'BNT',
+        img: '/res/coinImages/BNT',
+        alt: 'Bancor'
+    },	
+    { 	
+        coin: 'Bitcoin Gold',
+        csn: 'BTG',
+        img: '/res/coinImages/BTG',
+        alt: 'Bitcoin Gold'
+    },	
+    { 	
+        coin: 'Civic',
+        csn: 'CVC',
+        img: '/res/coinImages/CVC',
+        alt: 'Civic'
+    },	
+    { 	
+        coin: 'Dash',
+        csn: 'DASH',
+        img: '/res/coinImages/DASH',
+        alt: 'Dash'
+    },	
+    { 	
+        coin: 'DigiByte',
+        csn: 'DGB',
+        img: '/res/coinImages/DGB',
+        alt: 'DigiByte'
+    },	
+    { 	
+        coin: 'DMarket',
+        csn: 'DMT',
+        img: '/res/coinImages/DMT',
+        alt: 'DMarket'
+    },	
+    { 	
+        coin: 'Enigma',
+        csn: 'ENG',
+        img: '/res/coinImages/ENG',
+        alt: 'Enigma'
+    },	
+    { 	
+        coin: 'Ethereum Classic',
+        csn: 'ETC',
+        img: '/res/coinImages/ETC',
+        alt: 'Ethereum Classic'
+    },	
+    { 	
+        coin: 'Factom',
+        csn: 'FCT',
+        img: '/res/coinImages/FCT',
+        alt: 'Factom'
+    },	
+    { 	
+        coin: 'Gnosis',
+        csn: 'GNO',
+        img: '/res/coinImages/GNO',
+        alt: 'Gnosis'
+    },	
+    { 	
+        coin: 'Golem',
+        csn: 'GNT',
+        img: '/res/coinImages/GNT',
+        alt: 'Golem'
+    },	
+    { 	
+        coin: 'Gifto',
+        csn: 'GTO',
+        img: '/res/coinImages/GTO',
+        alt: 'Gifto'
+    },	
+    { 	
+        coin: 'Loopring',
+        csn: 'LRC',
+        img: '/res/coinImages/LRC',
+        alt: 'Loopring'
+    },	
+    { 	
+        coin: 'Litecoin',
+        csn: 'LTC',
+        img: '/res/coinImages/LTC',
+        alt: 'Litecoin'
+    },	
+    { 	
+        coin: 'Lunyr',
+        csn: 'LUN',
+        img: '/res/coinImages/LUN',
+        alt: 'Lunyr'
+    },	
+    { 	
+        coin: 'Decentraland',
+        csn: 'MANA',
+        img: '/res/coinImages/MANA',
+        alt: 'Decentraland'
+    },	
+    { 	
+        coin: 'Monaco',
+        csn: 'MCO',
+        img: '/res/coinImages/MCO',
+        alt: 'Monaco'
+    },	
+    { 	
+        coin: 'More',
+        csn: 'MORE',
+        img: '/res/coinImages/MORE',
+        alt: 'More'
+    },	
+    { 	
+        coin: 'Neo',
+        csn: 'NEO',
+        img: '/res/coinImages/NEO',
+        alt: 'Neo'
+    },	
+    { 	
+        coin: 'Naga',
+        csn: 'NGC',
+        img: '/res/coinImages/NGC',
+        alt: 'Naga'
+    },	
+    { 	
+        coin: 'Odyssey',
+        csn: 'OCN',
+        img: '/res/coinImages/OCN',
+        alt: 'Odyssey'
+    },	
+    { 	
+        coin: 'OmiseGO',
+        csn: 'OMG',
+        img: '/res/coinImages/OMG',
+        alt: 'OmiseGO'
+    },	
+    { 	
+        coin: 'TenX Pay Token',
+        csn: 'PAY',
+        img: '/res/coinImages/PAY',
+        alt: 'TenX Pay Token'
+    },	
+    { 	
+        coin: 'Polymath',
+        csn: 'POLY',
+        img: '/res/coinImages/POLY',
+        alt: 'Polymath'
+    },	
+    { 	
+        coin: 'PowerLedger',
+        csn: 'POWR',
+        img: '/res/coinImages/POWR',
+        alt: 'PowerLedger'
+    },	
+    { 	
+        coin: 'Propy',
+        csn: 'PRO',
+        img: '/res/coinImages/PRO',
+        alt: 'Propy'
+    },	
+    { 	
+        coin: 'Qtum',
+        csn: 'QTUM',
+        img: '/res/coinImages/QTUM',
+        alt: 'Qtum'
+    },	
+    { 	
+        coin: 'Ripio Credit Network',
+        csn: 'RCN ',
+        img: '/res/coinImages/RCN ',
+        alt: 'Ripio Credit Network'
+    },	
+    { 	
+        coin: 'Augur',
+        csn: 'REP',
+        img: '/res/coinImages/REP',
+        alt: 'Augur'
+    },	
+    { 	
+        coin: 'iEx.ec',
+        csn: 'RLC',
+        img: '/res/coinImages/RLC',
+        alt: 'iEx.ec'
+    },	
+    { 	
+        coin: 'Salt',
+        csn: 'SALT',
+        img: '/res/coinImages/SALT',
+        alt: 'Salt'
+    },	
+    { 	
+        coin: 'Siacoin',
+        csn: 'SC',
+        img: '/res/coinImages/SC',
+        alt: 'Siacoin'
+    },	
+    { 	
+        coin: 'Status Network Token',
+        csn: 'SNT',
+        img: '/res/coinImages/SNT',
+        alt: 'Status Network Token'
+    },	
+    { 	
+        coin: 'Sirin Token',
+        csn: 'SRN',
+        img: '/res/coinImages/SRN',
+        alt: 'Sirin Token'
+    },	
+    { 	
+        coin: 'Storm',
+        csn: 'STORM',
+        img: '/res/coinImages/STORM',
+        alt: 'Storm'
+    },	
+    { 	
+        coin: 'Stratis',
+        csn: 'STRAT',
+        img: '/res/coinImages/STRAT',
+        alt: 'Stratis'
+    },	
+    { 	
+        coin: 'TRON',
+        csn: 'TRX',
+        img: '/res/coinImages/TRX',
+        alt: 'TRON'
+    },	
+    { 	
+        coin: 'TrueUSD',
+        csn: 'TUSD',
+        img: '/res/coinImages/TUSD',
+        alt: 'TrueUSD'
+    },	
+    { 	
+        coin: 'UnikoinGold',
+        csn: 'UKG',
+        img: '/res/coinImages/UKG',
+        alt: 'UnikoinGold'
+    },	
+    { 	
+        coin: 'UpToken',
+        csn: 'UP',
+        img: '/res/coinImages/UP',
+        alt: 'UpToken'
+    },	
+    { 	
+        coin: 'BLOCKv',
+        csn: 'VEE',
+        img: '/res/coinImages/VEE',
+        alt: 'BLOCKv'
+    },	
+    { 	
+        coin: 'Viberate',
+        csn: 'VIB',
+        img: '/res/coinImages/VIB',
+        alt: 'Viberate'
+    },	
+    { 	
+        coin: 'Waves',
+        csn: 'WAVES',
+        img: '/res/coinImages/WAVES',
+        alt: 'Waves'
+    },	
+    { 	
+        coin: 'Worldwide Asset Exchange',
+        csn: 'WAX',
+        img: '/res/coinImages/WAX',
+        alt: 'Worldwide Asset Exchange'
+    },	
+    { 	
+        coin: 'NEM',
+        csn: 'XEM',
+        img: '/res/coinImages/XEM',
+        alt: 'NEM'
+    },	
+    { 	
+        coin: 'Lumen',
+        csn: 'XLM',
+        img: '/res/coinImages/XLM',
+        alt: 'Lumen'
+    },	
+    { 	
+        coin: 'Monero',
+        csn: 'XMR',
+        img: '/res/coinImages/XMR',
+        alt: 'Monero'
+    },	
+    { 	
+        coin: 'XRP',
+        csn: 'XRP',
+        img: '/res/coinImages/XRP',
+        alt: 'XRP'
+    },	
+    { 	
+        coin: 'ZCash',
+        csn: 'ZEC',
+        img: '/res/coinImages/ZEC',
+        alt: 'ZCash'
+    },	
+    { 	
+        coin: '0x Protocol',
+        csn: 'ZRX',
+        img: '/res/coinImages/ZRX',
+        alt: '0x Protocol'
+    }      
+];
